@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: linear-gradient(-45deg, #c6c8c6 100%, #e4e4e4 0%);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+}
+
+.navegacion {
+    width: 96%;
+    height: 160px;
+    background-color: #ee9dd6;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px #c571a2;
+}
+
+.enlace {
+    position: inherit;
+    padding: 80px 50px;
+}
+
+
+.navegacion ul {
+    list-style: none;
+    float: right;
+    margin-right: 20px;
+}
+
+.navegacion ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+.navegacion .menu li a {
+    padding: 20px 20px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+li a.active, li a:hover {
+    background: #f677c1;
+    transition: .5s;
+}
+
+
+.letrah1 {
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 45px;
+    margin-left: 50px;
+    color: #008f39;
+
+}
+
+.letrah2 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 45px;
+    margin-left: 50px;
+    color: #540872;
+
+}
+
+
+
+
+.imagen {
+    height: 300px;
+    width: 700px;
+}
+
+
+.carousel-item {
+    margin: auto;
+    right: -280px;
+    top: 60px;
+    margin-bottom: 90px;
+}
+
+.letrah3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10px;
+    margin-left: 50px;
+    color: #540872;
+
+}
+
+footer {
+    margin-top: 10px;
+    background-color: #f69adb;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.imgFooter {
+    margin-left: 60rem;
+    position: absolute;
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+    body {
+        background-image: linear-gradient(-45deg, #c6c8c6 100%, #e4e4e4 0%);
+        background-size: 500px 670px;
+    }
+
+    .navegacion {
+        width: 96%;
+        height: 240px;
+        background-color: #ee9dd6;
+        border-radius: 30px;
+        box-shadow: 4px 4px 4px 4px #c571a2;
+        margin-top: 50px;
+    }
+
+    .navegacion .menu li a {
+        padding: 20px 20px;
+        color: #000000;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+ 
+    }
+
+    .letrah3 {
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 45px;
+        margin-left: 50px;
+        color: #540872;
+    
+    }
+    
+    footer {
+        margin-top: 30px;
+        background-color: #f69adb;
+        height: 130px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+    }
+    
+    .imgFooter {
+        margin-left: 60rem;
+        position: inherit;
+    
+    }
+
+    .enlace {
+        display: none;
+    }
+
+
+
+    .letrah1 {
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 30px;
+        margin-left: 1px;
+        text-align: center;
+        color: #008f39;
+
+    }
+
+    .letrah2 {
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 30px;
+        margin-left: 70px;
+        color: #540872;
+    }
+
+
+    .imagen {
+        height: 150px;
+        width: 250px;
+    }
+
+    .carousel-item {
+        margin: auto;
+        left: 70px;
+        top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .imagenCard{
+        height: 150px;
+        width: 250px;
+        margin-left: 25%;
+        
+    }
+
+  
+
+
+}
+
+@media screen and(max-width: 700px) {}

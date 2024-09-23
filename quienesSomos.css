@@ -1,0 +1,278 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./imagenesProyecto/fondoQuienesSomos.jpg);
+  background-size: 500px 500px;
+}
+
+
+.navegacion {
+  width: 96%;
+  height: 160px;
+  background-color: #77dd77;
+  border-radius: 30px;
+  box-shadow: 4px 4px 4px 4px #000000;
+}
+
+.enlace {
+  position: absolute;
+  padding: 20px 50px;
+}
+
+.logo {
+  height: 140px;
+}
+
+.navegacion ul {
+  list-style: none;
+  float: right;
+  margin-right: 20px;
+}
+
+.navegacion ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+
+}
+
+.navegacion .menu li a {
+  padding: 20px 20px;
+  color: #000000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+li a.active, li a:hover {
+  background: #4abe4a;
+  transition: .5s;
+}
+
+
+.mision {
+  border-radius: 10px 10px 10px;
+  background-color: #8EF588;
+  text-align: justify;
+  max-width: 22%;
+  min-height: 6%;
+  margin-right: 20px;
+  padding: 23px 23px;
+  box-shadow: 6px 6px 6px 6px #000000;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: center;
+  color: #000000;
+  border-radius: 10px 10px 10px;
+  background-color: #8EF588;
+  text-align: center;
+  padding: 12px 12px;
+  width: 500px;
+  margin-left: 30%;
+  box-shadow: 8px 8px 8px 8px #000000;
+}
+
+h2 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.texto {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textoValores {
+  text-align: justify;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.vision {
+  border-radius: 10px 10px 10px;
+  text-align: left;
+  background-color: #8EF588;
+  max-width: 300px;
+  min-height: 6%;
+  margin-left: 20px;
+  padding: 23px 23px;
+  box-shadow: 8px 8px 8px 8px #000000;
+}
+
+.Valores {
+  border-radius: 10px 10px 10px;
+  background-color: #8EF588;
+  height: 6%;
+  margin-top: 30px;
+  margin-left: 200px;
+  width: 900px;
+  padding: 16px 16px;
+  margin-bottom: 10px;
+  box-shadow: 8px 8px 8px 8px #000000;
+  margin-bottom: 50px;
+}
+
+.todo {
+  display: flex;
+  justify-content: center;
+}
+
+.letrah3 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;
+  margin-left: 50px;
+  color: #000000;
+
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #8EF588;
+  height: 200px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+}
+
+.imgFooter {
+  margin-left: 60rem;
+  position: inherit;
+
+}
+
+
+@media screen and (max-width: 480px){
+
+  .navegacion {
+    width: 96%;
+    height: 240px;
+    background-color: #77dd77;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px 4px #000000;
+    margin-top: 50px;
+}
+
+.navegacion .menu li a {
+    padding: 20px 20px;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+
+.enlace {
+  display: none;
+}
+
+
+  .texto {
+    text-align: justify;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  h1 {
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: center;
+    color: #000000;
+    border-radius: 6px 6px 6px;
+    background-color: #8EF588;
+    text-align: center;
+    padding: 10px 10px;
+    width: 240px;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 8px 8px 8px 8px #000000;
+  }
+
+  h2 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+
+
+
+  }
+
+  .texto {
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .mision {
+    border-radius: 6px 6px 6px;
+    background-color: #8EF588;
+    text-align: justify;
+    max-width: 50%;
+    min-height: 3%;
+    margin-right: 10px;
+    padding: 6px 10px;
+    box-shadow: 6px 6px 6px 6px #000000;
+  }
+
+  .vision {
+    border-radius: 6px 6px 6px;
+    text-align: left;
+    background-color: #8EF588;
+    max-width: 50%;
+    min-height: 6%;
+    margin-left: 20px;
+    padding: 6px 10px;
+    box-shadow: 8px 8px 8px 8px #000000;
+  }
+
+  .Valores {
+    border-radius: 6px 6px 6px;
+    background-color: #8EF588;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 290px;
+    padding: 6px 10px;
+    margin-bottom: 25px;
+    box-shadow: 8px 8px 8px 8px #000000;
+    margin-bottom: 50px;
+  }
+
+  .textoValores {
+    text-align: justify;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+  .letrah3 {
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 45px;
+    margin-left: 50px;
+    color: #000000;
+
+}
+
+footer {
+    margin-top: 30px;
+    background-color: #8EF588;
+    height: 130px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.imgFooter {
+    margin-left: 60rem;
+    position: inherit;
+
+}
+}
+
